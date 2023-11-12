@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Facilities Monitoring Application
+title = My Application
 
 # (str) Package name
 package.name = myapp
@@ -67,7 +67,7 @@ orientation = portrait
 osx.python_version = 3.7.6
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.1.0
 
 #
 # Android specific
@@ -101,7 +101,7 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 28
+#android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
@@ -205,7 +205,7 @@ fullscreen = 0
 
 # (bool) Enable AndroidX support. Enable when 'android.gradle_dependencies'
 # contains an 'androidx' package, or any package from Kotlin source.
-# android.enable_androidx requires android.api >= 33
+# android.enable_androidx requires android.api >= 28
 #android.enable_androidx = True
 
 # (list) add java compile options
