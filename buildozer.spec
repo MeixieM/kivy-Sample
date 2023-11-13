@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,db
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -37,7 +37,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy, kivymd
-requirements = python3==3.7.6,hostpython3==3.7.6,Kivy==2.1.0,kivymd==1.0.2,Requests==2.31.0,Pillow
+requirements = python3==3.10.5,Kivy==2.2.1,kivymd==1.1.1,Requests==2.31.0
+
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -63,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
+osx.python_version = 3.10.5
 
 # Kivy version to use
 osx.kivy_version = 2.1.0
