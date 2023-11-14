@@ -36,9 +36,8 @@ version = 0.1
 # version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
-# comma separated e.g. requirements = kivy,kivymd
-requirements = python3==3.10.5,Kivy==2.2.1,kivymd==1.1.1,Requests==2.31.0
-
+# comma separated e.g. requirements = sqlite3,kivy, kivymd
+requirements = python3==3.7.6,hostpython3==3.7.6,Kivy==2.1.0,kivymd==1.0.2,Requests==2.31.0,Pillow
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -64,7 +63,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.10.5
+osx.python_version = 3.7.6
 
 # Kivy version to use
 osx.kivy_version = 2.1.0
